@@ -6,6 +6,6 @@ public class Calculator {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println("Hey how u doing.... ");
+		System.out.println("Hey how u doing.... This is my first class");
 	}
 }
