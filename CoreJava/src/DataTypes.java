@@ -11,7 +11,7 @@ public class DataTypes {
 		byte myHeight = (byte)height;
 		System.out.println(totalAge);
 		
-		byte ageofAnimal = (byte)130;
+		byte ageofAnimal = (byte)128;
 		
 		System.out.println("ageofAnimal " + ageofAnimal);
 		
