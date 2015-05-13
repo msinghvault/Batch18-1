@@ -2,10 +2,11 @@
 public class RelationalOperatorExample {
 
 	public static void main(String[] args) {
+		
 		int arg1 = Integer.parseInt(args[0]);
 		int arg2 = Integer.parseInt(args[1]);
 		
-		int age = Integer.parseInt("jay");
+		int age = Integer.parseInt(args[3]);
 		System.out.println(age);
 		
 		String height = 34+"";
