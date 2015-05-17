@@ -1,3 +1,4 @@
+package basics.bitlogic;
 class BitLogicWithoutArray {
 	public static void main(String args[]) {
 		int a = 3; // 0 + 2 + 1 or 0011 in binary

@@ -1,3 +1,4 @@
+package basics.bitlogic;
 
 public class BooleanLogicalOperatorExample {
 
