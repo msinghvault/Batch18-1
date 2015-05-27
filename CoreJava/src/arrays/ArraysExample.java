@@ -1,12 +1,20 @@
 package arrays;
 
+/**
+ * This particular example deals with 2d and 1d.
+ * @author Jayram
+ *
+ */
 public class ArraysExample {
 
+	/**
+	 * This is a one Dimenstion Array
+	 */
 	public static void oneDimenArray() {
 		int age1 = 10;
 		int age2 = 20;
 		int age3 = 30;
-
+		
 		int ages[] = new int[3]; // {10,20,30};
 		ages[0] = age1;
 		ages[1] = age2;
@@ -47,7 +55,7 @@ public class ArraysExample {
 		}
 		
 	}
-
+	
 	public static void twoDimenArray() {
 		int person1[] = { 5, 30 }; // height and age and percentage
 		int person2[] = { 6, 32 }; // height and age
