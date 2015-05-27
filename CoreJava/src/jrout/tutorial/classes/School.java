@@ -3,7 +3,11 @@ package jrout.tutorial.classes;
 class Teacher{
 
 }
-
+/**
+ * This is a school Object
+ * @author Jayram
+ *
+ */
 public class School {
 
 	public static void main(String[] args) {
