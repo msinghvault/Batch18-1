@@ -11,7 +11,7 @@ class Teacher{
 public class School {
 
 	public static void main(String[] args) {
-		Student studOne = new Student();
+		/*Student studOne = new Student();
 		studOne.name = "Jayram";
 		studOne.grade = 3;
 		
@@ -24,10 +24,24 @@ public class School {
 	
 		studOne.name = "Girish";
 		
-		System.out.println(studOne.name);
+		System.out.println(studOne.name);*/
 		
 		
+		
+		/*Student studThree = new Student("Girish");
+		studThree.grade = 5;
+		
+		System.out.println(studThree.name);
+		
+		studThree.name = "Nuzhat";
+		
+		System.out.println(studThree.name);
+		
+		Student stud = studThree;
+		
+		stud.name = "New Name";
+		
+		System.out.println(studThree.name);
+		System.out.println(stud.name);*/
 	}
-	
-	
 }
