@@ -3,7 +3,10 @@ package basics;
 public class DataTypes {
 
 	public static void main(String[] args) {
-		int myAge = Integer.parseInt("30");
+		int myAge = Integer.parseInt("30"); // primitive
+		
+		Integer inte = new Integer(30); // Wrapper
+		
 		byte urAge = 40;
 		
 		byte totalAge = (byte)(myAge + urAge);
