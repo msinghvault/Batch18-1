@@ -31,12 +31,17 @@ public class EnumExample {
 	public static void main(String[] args) {
 		
 		EnumExample.printMonthNamesWithIndex(1);
-
 		EnumExample.printMonthNamesWithEnum(Months.JAN);
+		
+		EnumExample ee = new EnumExample();
+		ee.orderCoffee(Coffee.LARGE);
 	}
 	
-	
 	public void orderCoffee(Coffee coffee){
+		
+		if(coffee.getValue() == 500){
+			System.out.println("Its Large");
+		}
 		System.out.println(coffee.getValue());
 	}
 	
