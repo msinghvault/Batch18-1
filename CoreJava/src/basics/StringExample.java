@@ -32,8 +32,13 @@ public class StringExample {
 		
 		String name4 = "Rukmini";
 		*/
-		System.out.println("I am at last line...");
+		System.out.println("I am at last line..." );
 		
+		String name2 = "jayram rout";
+		System.out.println("Replacing.. "+name2.replace("rout", "test"));
+		
+		System.out.println(name2.substring(2));
+
 		String myfirstName = "Jayram";
 //		myfirstName = myfirstName + "Rout";
 		myfirstName = myfirstName.concat("Rout");
