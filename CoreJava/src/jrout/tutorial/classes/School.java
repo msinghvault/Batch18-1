@@ -9,7 +9,9 @@ class Teacher{
  *
  */
 public class School {
-
+	public void callMe(){
+		System.out.println("I am a school");
+	}
 	public static void main(String[] args) {
 		/*Student studOne = new Student();
 		studOne.name = "Jayram";

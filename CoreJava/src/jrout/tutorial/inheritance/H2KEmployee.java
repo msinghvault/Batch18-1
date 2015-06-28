@@ -1,6 +1,6 @@
 package jrout.tutorial.inheritance;
 
-public class H2KEmployee {
+public abstract class H2KEmployee {
 	private int empId;
 	private String name;
 	private String workDetails = " All Employee work for 8 Hrs";
@@ -26,7 +26,15 @@ public class H2KEmployee {
 		return workDetails;
 	}
 	
-	public String tieColor() {
-		return "Tie Color is GreenBlue";
+	public abstract String tieColor();
+	public abstract void vehicle();
+	
+	public void lunchTime() {
+		System.out.println("Lunch time is 12:30 PM");
+	}
+	
+	@Override
+	public String toString() {
+		return "empId = "+ empId + " name = "+ name;
 	}
 }

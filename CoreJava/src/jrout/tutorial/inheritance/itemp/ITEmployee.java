@@ -1,6 +1,8 @@
-package jrout.tutorial.inheritance;
+package jrout.tutorial.inheritance.itemp;
 
-public class ITEmployee extends H2KEmployee {
+import jrout.tutorial.inheritance.H2KEmployee;
+
+public abstract class ITEmployee extends H2KEmployee {
 	
 	public ITEmployee(int empId, String name) {
 		super(empId, name);
@@ -25,4 +27,9 @@ public class ITEmployee extends H2KEmployee {
 	public String tieColor() {
 		return "Tie Color is PurpleBlue";
 	}
+
+	/*@Override
+	public void vehicle() {
+		System.out.println("Honda Vehicle");
+	}*/
 }

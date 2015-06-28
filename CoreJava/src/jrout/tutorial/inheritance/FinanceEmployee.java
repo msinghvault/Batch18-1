@@ -13,4 +13,14 @@ public class FinanceEmployee extends H2KEmployee {
 	public void setTaxFinance(String taxFinance) {
 		this.taxFinanceExp = taxFinance;
 	}
+	
+	@Override
+	public String tieColor() {
+		return "BlackBlue Tie Color";
+	}
+
+	@Override
+	public void vehicle() {
+		System.out.println("BMW Vehicle");
+	}
 }
