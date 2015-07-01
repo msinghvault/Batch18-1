@@ -3,7 +3,7 @@ package jrout.tutorial.inheritance;
 import jrout.tutorial.inheritance.itemp.JavaEmp;
 
 public class H2kClient {
-
+	
 	public static void main(String[] args) {
 //		FinanceEmployee fe = new FinanceEmployee(34, "Nuzhat");
 //		System.out.println(fe.toString());
@@ -30,9 +30,18 @@ public class H2kClient {
 		System.out.println(ie2.tieColor());*/
 		
 		H2KEmployee fEmp = new FinanceEmployee(34, "Nuzhat");
-		printInfo(fEmp);
+		//printInfo(fEmp);
+		System.out.println(fEmp.tieColor());
 		H2KEmployee itEmp = new JavaEmp(56,"Dinesh");
-		printInfo(itEmp);
+		System.out.println(itEmp.tieColor());
+		//printInfo(itEmp);
+		
+		/*H2KEmployee emp = new FinanceEmployee(34, "Nuzhat");
+		//printInfo(fEmp);
+		emp.tieColor();
+		emp = new JavaEmp(56,"Dinesh");
+		emp.tieColor();*/
+		
 	}
 	
 	public static void printInfo(H2KEmployee emp){
