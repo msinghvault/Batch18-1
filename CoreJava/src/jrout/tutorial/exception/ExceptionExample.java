@@ -4,8 +4,8 @@ import jrout.tutorial.inheritance.itemp.JavaEmp;
 
 public class ExceptionExample {
 	
-	public static void main(String[] args) {
-		JavaEmp emp = null;
+	public static void main(String[] args) throws Exception {
+		/*JavaEmp emp = null;
 		printEmp(emp);
 		int index;
 		String vol[] = {args[0], args[1]};
@@ -45,13 +45,14 @@ public class ExceptionExample {
 			System.out.println("Age is More then 30");
 		}else if(age < 1){
 			System.out.println("Small Kid");
-		}
+		}*/
 		
-		try {
+		System.out.println("Division === "+Division.divideValues(12,0));
+		/*try {
 			System.out.println("Division === "+Division.divideValues(12,0));
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
+		}*/
 		
 		System.out.println("I am at the final Stage...");
 	}

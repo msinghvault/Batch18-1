@@ -18,7 +18,7 @@ public class InterfaceClient {
 		Kickable kick = new JavaEmp(34, "Nuzhat");
 		kick.kick();
 		
-		Printer print = new Printer();
+//		Printer print = new Printer();
 	}
 	
 	public static void printSwimmingDetails(Swimmable swim){
